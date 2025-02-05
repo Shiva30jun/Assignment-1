@@ -1,0 +1,4 @@
+Valid Input tests like with Test with zero as an input value
+Test with a single negative inputs
+Test with all negative inputs
+Test with a mix of positive and negative values
