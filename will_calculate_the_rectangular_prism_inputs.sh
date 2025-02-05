@@ -1,10 +1,11 @@
 #!/bin/bash
-width =3
+
 height =2
+width =3
 length =1
 volume=$(($length*$height*$length))
 echo $volume
-RESULT=$(./calculate_volume.sh $length $width $height)
+RESULT=$(./calculate_volume.sh $height $width $length )
 # Check if the result is greater than 0
 if [[ $RESULT -gt 0 ]]; 
 then
@@ -12,3 +13,4 @@ then
 else 
     echo "Failed"
 fi
+
